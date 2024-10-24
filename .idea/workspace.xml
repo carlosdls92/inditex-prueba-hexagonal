@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/ApiImplApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/application/PriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/PriceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/repository/IPriceJPARepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/web/PriceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/mapper/PriceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/port/db/IPriceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-spec/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-spec/src/main/resources/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nsuX9AQoh7kw6ML7vLm9CwDzSt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.api-spec [clean,install].executor": "Run",
+    "Maven.inditex-prueba-hexagonal [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiImplApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/carlo/Documents/Personal/IdeaProjects/inditex-prueba-hexagonal",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="inditex-prueba-hexagonal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="inditex-prueba-hexagonal" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="es.com.inditex.dls.ApiImplApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiImplApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="" />
+      <created>1729774142086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729774142086</updated>
+      <workItem from="1729774143146" duration="20000" />
+      <workItem from="1729774167794" duration="72000" />
+      <workItem from="1729774249669" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
