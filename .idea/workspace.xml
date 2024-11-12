@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/ApiImplApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/application/PriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/PriceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/repository/IPriceJPARepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/web/PriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/mapper/PriceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/port/db/IPriceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-spec/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-spec/src/main/resources/openapi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-spec/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.api-impl [clean,install].executor": "Run",
     "Maven.api-spec [clean,install].executor": "Run",
     "Maven.inditex-prueba-hexagonal [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,26 +49,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="inditex-prueba-hexagonal" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="inditex-prueba-hexagonal" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="api-impl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="es.com.inditex.dls.ApiImplApplication" />
