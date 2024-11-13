@@ -10,5 +10,5 @@ Este proyecto tiene el archivo yaml con la configuracion para la generacion de l
 <h2>api-impl</h2>
 Este proyecto tiene el servicio rest como tal, importando las clases generadas en el api-spec
 
-Documentacion del Servicio: http://localhost:8080/swagger-ui.html
+Documentacion del Servicio: http://localhost:8080/api/v1/swagger-ui/index.html
 

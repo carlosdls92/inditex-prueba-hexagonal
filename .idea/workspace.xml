@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="java 21 + springboot 3">
-      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/application/PriceServiceTest.java" afterDir="false" />
+    <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="pruebas unitarias mas detalladas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PriceServiceTest.testFindPrice">
+  <component name="RunManager" selected="Spring Boot.ApiImplApplication">
     <configuration name="PriceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-impl" />
       <extension name="coverage">
@@ -111,22 +111,6 @@
       <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
       <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceControllerTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-impl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="es.com.inditex.dls.infrastructure.adapter.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
-      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,13 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="es.com.inditex.dls.ApiImplApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiImplApplication" />
         <item itemvalue="JUnit.PriceServiceTest.testFindPrice" />
         <item itemvalue="JUnit.PriceControllerTest" />
         <item itemvalue="JUnit.PriceControllerTest.test5" />
         <item itemvalue="JUnit.PriceControllerTest.test4" />
-        <item itemvalue="JUnit.PriceControllerTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +205,7 @@
       <workItem from="1729774143146" duration="20000" />
       <workItem from="1729774167794" duration="72000" />
       <workItem from="1729774249669" duration="336000" />
-      <workItem from="1731483923007" duration="1860000" />
+      <workItem from="1731483923007" duration="3457000" />
     </task>
     <task id="LOCAL-00001" summary="java 21 + springboot 3">
       <option name="closed" value="true" />
@@ -218,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731416057684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pruebas unitarias mas detalladas">
+      <option name="closed" value="true" />
+      <created>1731485909031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731485909032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java 21 + springboot 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 21 + springboot 3" />
+    <MESSAGE value="pruebas unitarias mas detalladas" />
+    <option name="LAST_COMMIT_MESSAGE" value="pruebas unitarias mas detalladas" />
   </component>
 </project>
