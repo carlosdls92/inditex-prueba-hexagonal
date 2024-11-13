@@ -4,27 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="97eba5bb-de25-4062-846b-4c4558f0584c" name="Changes" comment="java 21 + springboot 3">
+      <change afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/application/PriceServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/BrandEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/PriceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/java/es/com/inditex/dls/infrastructure/adapter/db/model/ProductEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-spec/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-spec/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-spec/target/api-spec-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-impl/src/test/java/es/com/inditex/dls/infrastructure/adapter/web/PriceControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "carlosdls92"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/carlosdls92/inditex-prueba-hexagonal",
+    "accountId": "57eacfcd-f7be-4b43-bf2d-46ae110c5167"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -35,15 +50,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PriceControllerTest.executor": "Run",
+    "JUnit.PriceControllerTest.test1.executor": "Run",
+    "JUnit.PriceControllerTest.test2.executor": "Run",
+    "JUnit.PriceControllerTest.test3.executor": "Run",
+    "JUnit.PriceControllerTest.test4.executor": "Run",
+    "JUnit.PriceControllerTest.test5.executor": "Run",
+    "JUnit.PriceServiceTest.testFindPrice.executor": "Run",
     "Maven.api-impl [clean,install].executor": "Run",
     "Maven.api-spec [clean,install].executor": "Run",
     "Maven.inditex-prueba-hexagonal [clean,install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ApiImplApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/carlo/Documents/Personal/IdeaProjects/inditex-prueba-hexagonal",
+    "last_opened_file_path": "C:/Users/carlo/Documents/Personal/IdeaProjects/inditex-prueba-hexagonal/api-impl/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,36 +83,117 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlo\Documents\Personal\IdeaProjects\inditex-prueba-hexagonal\api-impl\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="es.com.inditex.dls.application" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ApiImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PriceServiceTest.testFindPrice">
+    <configuration name="PriceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-impl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="es.com.inditex.dls.ApiImplApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="es.com.inditex.dls.*" />
+          <option name="PATTERN" value="es.com.inditex.dls.infrastructure.adapter.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
+      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceControllerTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.infrastructure.adapter.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
+      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceControllerTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.infrastructure.adapter.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
+      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceControllerTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.infrastructure.adapter.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.com.inditex.dls.infrastructure.adapter.web" />
+      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.infrastructure.adapter.web.PriceControllerTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceServiceTest.testFindPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.com.inditex.dls.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="es.com.inditex.dls.application" />
+      <option name="MAIN_CLASS_NAME" value="es.com.inditex.dls.application.PriceServiceTest" />
+      <option name="METHOD_NAME" value="testFindPrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ApiImplApplication" />
+        <item itemvalue="JUnit.PriceServiceTest.testFindPrice" />
+        <item itemvalue="JUnit.PriceControllerTest" />
+        <item itemvalue="JUnit.PriceControllerTest.test5" />
+        <item itemvalue="JUnit.PriceControllerTest.test4" />
+        <item itemvalue="JUnit.PriceControllerTest.test3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -99,10 +208,24 @@
       <workItem from="1729774143146" duration="20000" />
       <workItem from="1729774167794" duration="72000" />
       <workItem from="1729774249669" duration="336000" />
+      <workItem from="1731483923007" duration="1860000" />
     </task>
+    <task id="LOCAL-00001" summary="java 21 + springboot 3">
+      <option name="closed" value="true" />
+      <created>1731416057684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731416057684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java 21 + springboot 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 21 + springboot 3" />
   </component>
 </project>
